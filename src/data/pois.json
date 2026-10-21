@@ -1,0 +1,145 @@
+[
+  {
+    "id": "prison",
+    "name": "14th Political Prison",
+    "aliases": ["prison", "the citadel", "citadel", "political prison", "14th"],
+    "x": 1248, "y": 1622,
+    "area": "Northwest", "control": "NK",
+    "threat": "High", "threatNote": "The Citadel is Critical",
+    "summary": "Fortress-style prison complex. The Citadel holds high-value targets and loot.",
+    "subAreas": ["The Citadel", "Citadel Prison Yard", "Citadel main building wings"],
+    "places": ["Hanrim Village", "Russian Border Crossing (West)", "Jayon Warehouses"]
+  },
+  {
+    "id": "changsan",
+    "name": "Chang-san Air Base",
+    "aliases": ["airbase", "air base", "changsan", "chang san", "bunker", "admin complex"],
+    "x": 1024, "y": 2316,
+    "area": "West", "control": "NK",
+    "threat": "Critical", "threatNote": "Exterior Critical; underground Bunker is Extreme",
+    "summary": "Military air base. The underground bunker complex is bigger than the base above it. Hangar, repair bay, armory and barracks.",
+    "subAreas": ["Admin Complex No. 2", "Bunker", "Hangar", "Repair bay", "Armory", "Barracks"],
+    "places": ["Compound Foxtrot"]
+  },
+  {
+    "id": "deadtown",
+    "name": "Deadtown",
+    "aliases": ["dead town", "re-education", "reeducation"],
+    "x": 1240, "y": 2727,
+    "area": "Southwest", "control": "NK",
+    "threat": "Low", "threatNote": "Re-Education Center is Medium",
+    "summary": "Abandoned NK town. Re-Education Center stronghold, hillside facade buildings and an underground holding area.",
+    "subAreas": ["Re-Education Center", "Hillside facade buildings", "Underground holding area"],
+    "places": []
+  },
+  {
+    "id": "imjin",
+    "name": "Imjin Farmland",
+    "aliases": ["farmland", "imjin", "farm", "rice mill"],
+    "x": 1595, "y": 2799,
+    "area": "South-southwest", "control": "SK",
+    "threat": "Low", "threatNote": "Rice Mill is Medium",
+    "summary": "Open farmland with the Rice Mill stronghold and storage tents.",
+    "subAreas": ["Rice Mill", "Storage tents"],
+    "places": ["Namjin Riverside", "Compound Alpha"]
+  },
+  {
+    "id": "cheongun",
+    "name": "Cheongun Village",
+    "aliases": ["cheongun", "casino", "heavenly luck", "mujin nightclub", "nightclub"],
+    "x": 2106, "y": 2015,
+    "area": "North", "control": "SK",
+    "threat": "Low", "threatNote": "Heavenly Luck Casino is High",
+    "summary": "Village around the Heavenly Luck Casino (with the Mujin Nightclub). Dark interiors, so NVGs help.",
+    "subAreas": ["Heavenly Luck Casino", "Mujin Nightclub"],
+    "places": ["Cheongun Outskirts", "Russian Border Crossing"]
+  },
+  {
+    "id": "hospital",
+    "name": "Mirae General Hospital",
+    "aliases": ["hospital", "mirae", "medical"],
+    "x": 2280, "y": 2184,
+    "area": "North-central", "control": "SK",
+    "threat": "Low", "threatNote": "",
+    "summary": "Large hospital. Best spot for medical ingredients.",
+    "subAreas": ["Hospital stronghold", "Medical tents"],
+    "places": ["Mujin Pass"]
+  },
+  {
+    "id": "cheonwang",
+    "name": "Cheonwang Peak Array",
+    "aliases": ["array", "peak", "cheonwang", "server room"],
+    "x": 2039, "y": 2554,
+    "area": "Central", "control": "SK",
+    "threat": "Medium", "threatNote": "",
+    "summary": "Hilltop array with server rooms. Good for CPUs and Comms Modules.",
+    "subAreas": ["Server rooms"],
+    "places": ["Daesong Ridge", "Imjin Suburb"]
+  },
+  {
+    "id": "reactor",
+    "name": "Haneul Nuclear Reactor",
+    "aliases": ["reactor", "nuclear", "haneul", "radiation", "nuke plant"],
+    "x": 2878, "y": 1921,
+    "area": "Northeast", "control": "SK",
+    "threat": "High", "threatNote": "Radiation zone. Border zone is Medium. Reactor 02 is breached.",
+    "summary": "Irradiated reactor. Bring a Gas Mask and Radiation Gear (from Fire Stations). Source of Printed Circuit Boards and Power Regulators.",
+    "subAreas": ["Reactor 02", "Border zone"],
+    "places": ["Russian Border Crossing (East)"]
+  },
+  {
+    "id": "nurigo",
+    "name": "NuriGO Mall",
+    "aliases": ["mall", "nurigo", "nuri go", "drc lab", "tunnels"],
+    "x": 2636, "y": 2380,
+    "area": "Northeast Hajin City", "control": "SK",
+    "threat": "High", "threatNote": "East is Medium; West is High",
+    "summary": "Mall stronghold with the DRC lab and dark tunnels (NVGs help).",
+    "subAreas": ["NuriGO West", "NuriGO East", "DRC lab", "Tunnels"],
+    "places": ["NuriGO West", "NuriGO East", "Shoreline Station", "Oamsik Turtle Islands", "Compound Delta"]
+  },
+  {
+    "id": "grid",
+    "name": "The Grid",
+    "aliases": ["grid", "nenshin", "netshin", "tech complex", "downtown"],
+    "x": 2473, "y": 2555,
+    "area": "Central Hajin City", "control": "SK",
+    "threat": "Critical", "threatNote": "Nenshin Tech Complex is Extreme",
+    "summary": "Fortified downtown with few escape routes. The Nenshin Tech Complex has server rooms.",
+    "subAreas": ["Nenshin Tech Complex", "Server rooms"],
+    "places": ["DBN Headquarters", "Hanex Bank"]
+  },
+  {
+    "id": "songdo",
+    "name": "Songdo Wharf",
+    "aliases": ["wharf", "songdo", "docks", "la grande vie", "pier"],
+    "x": 2868, "y": 2691,
+    "area": "East Hajin City", "control": "SK",
+    "threat": "Low", "threatNote": "",
+    "summary": "Waterfront district. The La Grande Vie rooftop is a hint spot for High-Tenacity Fibers.",
+    "subAreas": ["La Grande Vie rooftop"],
+    "places": ["Songdo Pier", "Construction Zone"]
+  },
+  {
+    "id": "stadium",
+    "name": "Wolves Stadium",
+    "aliases": ["stadium", "wolves"],
+    "x": 2352, "y": 2779,
+    "area": "South-central Hajin City", "control": "SK",
+    "threat": "Medium", "threatNote": "",
+    "summary": "Sports stadium in the south of the city.",
+    "subAreas": [],
+    "places": []
+  },
+  {
+    "id": "riverheights",
+    "name": "Hajin River Heights",
+    "aliases": ["river heights", "heights"],
+    "x": 2539, "y": 2932,
+    "area": "Southeast", "control": "SK",
+    "threat": "Medium", "threatNote": "",
+    "summary": "Residential high-rises by the river.",
+    "subAreas": [],
+    "places": ["South Island", "Compound Echo"]
+  }
+]

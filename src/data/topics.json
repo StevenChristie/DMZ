@@ -1,0 +1,32 @@
+[
+  {
+    "id": "exfil", "name": "Exfil", "aliases": ["exfil", "extract", "extraction", "exfiltrate", "helicopter", "heli", "leave", "escape", "fulton", "flare"],
+    "body": "Exfil sites are marked with green smoke and move between deployments. Call the Twin Heli and hold the site until it lands. You can also use a Fulton balloon, or a flare (loud, and it attracts ambushes). A radiation storm closes in on a timer, so don't leave it late.",
+    "markerTypes": ["exfil"]
+  },
+  {
+    "id": "bosses", "name": "Bosses: Commanders & Lieutenants", "aliases": ["boss", "bosses", "commander", "commanders", "colossus", "deathstalker", "death stalker", "tank", "lieutenant", "lieutenants", "lt"],
+    "body": "Commanders (Colossus, Deathstalker and the NK Battle Tank) are always on the map and roam. They resist many weapons and drop prized 3D Printer ingredients: Colossus drops Military Composites, the Tank drops Nano-Structured Alloy, Deathstalker drops Prototype RF Module, and any Commander can drop Experimental Compounds. Lieutenants come from Lieutenant Hunt towers or Boss Board intel. They drop a weapon and a Dog Tag Case, and picking up the case reveals you to every Operator.",
+    "markerTypes": ["lieutenantHunt"]
+  },
+  {
+    "id": "keys", "name": "Keys & loot rooms", "aliases": ["key", "keys", "locked", "loot room", "door"],
+    "body": "Keys open special loot rooms. Each key's description gives its grid location. A door locked from the inside means there's another way in. Lieutenants can drop keys. Add key doors you find with Edit Mode.",
+    "markerTypes": ["key"]
+  },
+  {
+    "id": "radiation", "name": "Radiation", "aliases": ["radiation", "rads", "radiated", "irradiated", "storm"],
+    "body": "The Haneul Nuclear Reactor is a radiation zone: you need a Gas Mask plus Radiation Gear, which you can find at Fire Stations. Separately, a radiation storm spreads across Hajin on a timer.",
+    "markerTypes": ["fireStation"]
+  },
+  {
+    "id": "infil", "name": "Infil options", "aliases": ["infil", "insertion", "deploy", "spawn"],
+    "body": "Infil costs: Ground (free), Polaris Dagor A1 (5,000), LTV (25,000), Helicopter (50,000), Cargo Plane (100,000 DMZ Cash).",
+    "markerTypes": []
+  },
+  {
+    "id": "fob", "name": "FOB stations", "aliases": ["fob", "base", "printer", "3d printer", "vendor", "gunsmith", "stash", "unlock"],
+    "body": "3D Printer unlocks at DMZ Level 2, Boss Board after your 2nd DMZ Order, Vendor at Level 5, Gunsmith at Level 10, Dog Tag Case at Level 20. The Stash starts with 40 item slots and 12 weapon slots.",
+    "markerTypes": []
+  }
+]

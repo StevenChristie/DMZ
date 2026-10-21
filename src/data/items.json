@@ -1,0 +1,258 @@
+[
+  {
+    "id": "synthetics", "name": "Synthetics", "type": "resource", "rarity": "Common",
+    "aliases": ["synth", "synthetic"],
+    "hint": "Basic printer resource. Loot breaks down into it automatically, so it doesn't use backpack slots.",
+    "containers": ["Jackets", "Luggage", "Medical bags"],
+    "foundIn": [], "markerTypes": [], "anywhere": true
+  },
+  {
+    "id": "electronics", "name": "Electronics", "type": "resource", "rarity": "Common",
+    "aliases": ["electronic", "elec"],
+    "hint": "Basic printer resource. Loot breaks down into it automatically.",
+    "containers": ["Medical bags", "Military lockers", "Duffel bags"],
+    "foundIn": [], "markerTypes": [], "anywhere": true
+  },
+  {
+    "id": "chemicals", "name": "Chemicals", "type": "resource", "rarity": "Common",
+    "aliases": ["chem", "chems", "chemical"],
+    "hint": "Basic printer resource. Loot breaks down into it automatically.",
+    "containers": ["Chemical storage", "Luggage", "First aid kits"],
+    "foundIn": [], "markerTypes": ["clinic"], "anywhere": true
+  },
+  {
+    "id": "metals", "name": "Metals", "type": "resource", "rarity": "Common",
+    "aliases": ["metal"],
+    "hint": "Basic printer resource. Loot breaks down into it automatically. Not the same as Reactive Metals.",
+    "containers": ["Computers", "IT bags", "Medicine cabinets"],
+    "foundIn": [], "markerTypes": [], "anywhere": true
+  },
+
+  {
+    "id": "biomaterials", "name": "Biomaterials", "type": "ingredient", "rarity": "Uncommon",
+    "aliases": ["bio", "biomaterial", "bio materials"],
+    "hint": "Hospitals, chemical lockers.",
+    "containers": ["Medicine cabinets", "First aid kits", "Chemical storage", "Medical bags", "UXO missiles"],
+    "foundIn": [
+      { "at": "hospital", "detail": "Medical areas", "source": "hint" },
+      { "at": "changsan", "detail": "", "source": "looted" },
+      { "at": "Tong-il Village", "detail": "", "source": "looted" },
+      { "at": "Oamsik Turtle Islands", "detail": "", "source": "looted" }
+    ],
+    "markerTypes": ["clinic"], "levelReward": 39
+  },
+  {
+    "id": "control-unit", "name": "Control Unit", "type": "ingredient", "rarity": "Uncommon",
+    "aliases": ["control units", "controller"],
+    "hint": "Computers, tech bags.",
+    "containers": ["Computers", "Tech bags"],
+    "foundIn": [
+      { "at": "grid", "detail": "Offices and the tech complex", "source": "inferred" },
+      { "at": "DBN Headquarters", "detail": "Offices", "source": "inferred" },
+      { "at": "cheonwang", "detail": "Server rooms", "source": "inferred" }
+    ],
+    "markerTypes": [], "levelReward": 38
+  },
+  {
+    "id": "detonators", "name": "Detonators", "type": "ingredient", "rarity": "Uncommon",
+    "aliases": ["detonator", "dets"],
+    "hint": "Military and industrial areas.",
+    "containers": ["Chemical storage", "Toolboxes"],
+    "foundIn": [
+      { "at": "changsan", "detail": "", "source": "looted" },
+      { "at": "Cheongun Outskirts", "detail": "", "source": "looted" },
+      { "at": "Jayon Warehouses", "detail": "Industrial area", "source": "inferred" }
+    ],
+    "markerTypes": ["compound"], "levelReward": 29
+  },
+  {
+    "id": "electronic-sensors", "name": "Electronic Sensors", "type": "ingredient", "rarity": "Uncommon",
+    "aliases": ["sensors", "sensor", "electronic sensor"],
+    "hint": "Tech bags, commercial areas.",
+    "containers": ["IT bags", "Computers"],
+    "foundIn": [
+      { "at": "changsan", "detail": "Bunker", "source": "looted" },
+      { "at": "stadium", "detail": "", "source": "looted" },
+      { "at": "nurigo", "detail": "Commercial area", "source": "inferred" }
+    ],
+    "markerTypes": [], "levelReward": 33
+  },
+  {
+    "id": "reactive-metals", "name": "Reactive Metals", "type": "ingredient", "rarity": "Uncommon",
+    "aliases": ["reactive metal", "reactive"],
+    "hint": "Industrial areas, toolboxes.",
+    "containers": ["Toolboxes", "Chemical storage", "Military lockers"],
+    "foundIn": [
+      { "at": "changsan", "detail": "", "source": "looted" },
+      { "at": "Jayon Warehouses", "detail": "Industrial area", "source": "inferred" },
+      { "at": "Construction Zone", "detail": "Industrial area", "source": "inferred" }
+    ],
+    "markerTypes": ["gasStation"], "levelReward": 11
+  },
+  {
+    "id": "rigid-synthetics", "name": "Rigid Synthetics", "type": "ingredient", "rarity": "Uncommon",
+    "aliases": ["rigid synth", "rigid", "rigid synthetic"],
+    "hint": "Residential areas, civilian duffel bags.",
+    "containers": ["Duffel bags", "Luggage", "Hidden caches"],
+    "foundIn": [
+      { "at": "imjin", "detail": "", "source": "looted" },
+      { "at": "nurigo", "detail": "", "source": "looted" },
+      { "at": "riverheights", "detail": "Residential", "source": "inferred" }
+    ],
+    "markerTypes": [], "levelReward": 6
+  },
+
+  {
+    "id": "binding-catalyst", "name": "Binding Catalyst", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["binding", "catalyst", "binding catalysts"],
+    "hint": "Mirae General Hospital, medical tents.",
+    "containers": ["First aid kits"],
+    "foundIn": [
+      { "at": "hospital", "detail": "Hospital and medical tents", "source": "hint" },
+      { "at": "changsan", "detail": "Bunker", "source": "looted" }
+    ],
+    "markerTypes": [], "levelReward": 49
+  },
+  {
+    "id": "cpu", "name": "CPU", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["cpus", "processor"],
+    "hint": "Nenshin Tech Complex and Cheonwang Peak Array server rooms, Deadtown hillside facade buildings.",
+    "containers": ["PC caches"],
+    "foundIn": [
+      { "at": "grid", "detail": "Nenshin Tech Complex server rooms", "source": "hint" },
+      { "at": "cheonwang", "detail": "Server rooms", "source": "hint" },
+      { "at": "deadtown", "detail": "Hillside facade buildings", "source": "hint" },
+      { "at": "hospital", "detail": "", "source": "looted" }
+    ],
+    "markerTypes": [], "levelReward": 44
+  },
+  {
+    "id": "high-tenacity-fibers", "name": "High-Tenacity Fibers", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["fibers", "fibres", "high tenacity", "htf"],
+    "hint": "Chang-san armory and barracks, Songdo Wharf La Grande Vie rooftop.",
+    "containers": [],
+    "foundIn": [
+      { "at": "changsan", "detail": "Armory and barracks", "source": "hint" },
+      { "at": "songdo", "detail": "La Grande Vie rooftop", "source": "hint" }
+    ],
+    "markerTypes": [], "levelReward": 53
+  },
+  {
+    "id": "nitro-compounds", "name": "Nitro Compounds", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["nitro", "nitro compound"],
+    "hint": "NuriGO Mall DRC lab, Citadel Prison Yard chemical buildings, Imjin Farmland storage tents.",
+    "containers": ["Chemical storage"],
+    "foundIn": [
+      { "at": "nurigo", "detail": "DRC lab", "source": "hint" },
+      { "at": "prison", "detail": "Citadel Prison Yard chemical buildings", "source": "hint" },
+      { "at": "imjin", "detail": "Storage tents", "source": "hint" }
+    ],
+    "markerTypes": [], "levelReward": 47
+  },
+  {
+    "id": "nylon-cloth", "name": "Nylon Cloth", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["nylon"],
+    "hint": "Citadel main building wings, Deadtown underground holding area, Mujin Nightclub (Heavenly Luck Casino).",
+    "containers": [],
+    "foundIn": [
+      { "at": "prison", "detail": "Citadel main building wings", "source": "hint" },
+      { "at": "deadtown", "detail": "Underground holding area", "source": "hint" },
+      { "at": "cheongun", "detail": "Mujin Nightclub, Heavenly Luck Casino", "source": "hint" }
+    ],
+    "markerTypes": [], "levelReward": 57
+  },
+  {
+    "id": "pcb", "name": "Printed Circuit Board", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["pcb", "circuit board", "circuit"],
+    "hint": "Haneul Nuclear Reactor, electrical substations.",
+    "containers": ["Loose on the ground"],
+    "foundIn": [
+      { "at": "reactor", "detail": "Radiation zone: bring a Gas Mask and Radiation Gear", "source": "hint" },
+      { "at": "changsan", "detail": "Bunker", "source": "looted" }
+    ],
+    "markerTypes": [], "levelReward": 56
+  },
+  {
+    "id": "stock-rod", "name": "Stock Rod", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["rod", "stock rods"],
+    "hint": "Imjin Farmland rice mill, Hajin City construction zone, Namjjog Station.",
+    "containers": [],
+    "foundIn": [
+      { "at": "imjin", "detail": "Rice Mill", "source": "hint" },
+      { "at": "Construction Zone", "detail": "Hajin City construction zone", "source": "hint" }
+    ],
+    "unmapped": ["Namjjog Station"],
+    "markerTypes": [], "levelReward": 51
+  },
+  {
+    "id": "structural-alloy", "name": "Structural Alloy", "type": "ingredient", "rarity": "Rare",
+    "aliases": ["alloy", "structural"],
+    "hint": "Chang-san hangar and repair bay, Bubun Yard.",
+    "containers": [],
+    "foundIn": [
+      { "at": "changsan", "detail": "Hangar and repair bay", "source": "hint" }
+    ],
+    "unmapped": ["Bubun Yard"],
+    "markerTypes": [], "levelReward": 43
+  },
+
+  { "id": "alloyed-plating", "name": "Alloyed Plating", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["plating"], "hint": "Same areas as Structural Alloy: Chang-san hangar and repair bay, Bubun Yard. Can also be printed.",
+    "containers": [], "foundIn": [ { "at": "changsan", "detail": "Hangar and repair bay", "source": "hint" } ], "unmapped": ["Bubun Yard"], "markerTypes": [] },
+  { "id": "ballistic-fabric", "name": "Ballistic Fabric", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["fabric"], "hint": "Chang-san armory and barracks, Songdo Wharf rooftop. Can also be printed.",
+    "containers": [], "foundIn": [ { "at": "changsan", "detail": "Armory and barracks", "source": "hint" }, { "at": "songdo", "detail": "La Grande Vie rooftop", "source": "hint" } ], "markerTypes": [] },
+  { "id": "comms-module", "name": "Comms Module", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["comms", "comms modules"], "hint": "Nenshin and Cheonwang server rooms, Deadtown hillside buildings. Can also be printed.",
+    "containers": [], "foundIn": [ { "at": "grid", "detail": "Nenshin server rooms", "source": "hint" }, { "at": "cheonwang", "detail": "Server rooms", "source": "hint" }, { "at": "deadtown", "detail": "Hillside buildings", "source": "hint" } ], "markerTypes": [] },
+  { "id": "nylon-laminate", "name": "Nylon Laminate", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["laminate"], "hint": "Citadel wings, Deadtown underground, Mujin Nightclub. Can also be printed.",
+    "containers": [], "foundIn": [ { "at": "prison", "detail": "Citadel wings", "source": "hint" }, { "at": "deadtown", "detail": "Underground", "source": "hint" }, { "at": "cheongun", "detail": "Mujin Nightclub", "source": "hint" } ], "markerTypes": [] },
+  { "id": "power-regulator", "name": "Power Regulator", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["regulator", "power regulators"], "hint": "Haneul Nuclear Reactor, electrical substations. Can also be printed.",
+    "containers": [], "foundIn": [ { "at": "reactor", "detail": "Radiation zone", "source": "hint" } ], "markerTypes": [] },
+  { "id": "stabilized-reagents", "name": "Stabilized Reagents", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["reagents", "reagent", "stabilised reagents"], "hint": "Mirae General Hospital, medical tents. Can also be printed.",
+    "containers": [], "foundIn": [ { "at": "hospital", "detail": "Hospital and medical tents", "source": "hint" } ], "markerTypes": [] },
+  { "id": "turned-components", "name": "Turned Components", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["turned"], "hint": "Imjin rice mill, Hajin construction zone, Namjjog Station. Can also be printed.",
+    "containers": [], "foundIn": [ { "at": "imjin", "detail": "Rice Mill", "source": "hint" }, { "at": "Construction Zone", "detail": "", "source": "hint" } ], "unmapped": ["Namjjog Station"], "markerTypes": [] },
+  { "id": "volatile-explosives", "name": "Volatile Explosives", "type": "ingredient", "rarity": "Epic",
+    "aliases": ["explosives", "volatile"], "hint": "NuriGO DRC lab, Citadel Prison Yard, Imjin storage tents. Can also be printed.",
+    "containers": ["Hidden caches"], "foundIn": [ { "at": "nurigo", "detail": "DRC lab", "source": "hint" }, { "at": "prison", "detail": "Citadel Prison Yard", "source": "hint" }, { "at": "imjin", "detail": "Storage tents", "source": "hint" }, { "at": "Oamsik Turtle Islands", "detail": "Hidden cache", "source": "looted" } ], "markerTypes": [] },
+
+  { "id": "military-composites", "name": "Military Composites", "type": "ingredient", "rarity": "Boss",
+    "aliases": ["composites", "military composite"], "hint": "Commander drop: Colossus.",
+    "containers": [], "foundIn": [], "dropsFrom": ["Colossus"], "markerTypes": [] },
+  { "id": "nano-alloy", "name": "Nano-Structured Alloy", "type": "ingredient", "rarity": "Boss",
+    "aliases": ["nano", "nano alloy", "nano structured alloy"], "hint": "Commander drop: the NK Battle Tank.",
+    "containers": [], "foundIn": [], "dropsFrom": ["Tank"], "markerTypes": [] },
+  { "id": "prototype-rf", "name": "Prototype RF Module", "type": "ingredient", "rarity": "Boss",
+    "aliases": ["rf module", "prototype rf", "rf"], "hint": "Commander drop: Deathstalker.",
+    "containers": [], "foundIn": [], "dropsFrom": ["Deathstalker"], "markerTypes": [] },
+  { "id": "experimental-compounds", "name": "Experimental Compounds", "type": "ingredient", "rarity": "Boss",
+    "aliases": ["experimental", "compounds"], "hint": "Occasional drop from any Commander.",
+    "containers": [], "foundIn": [], "dropsFrom": ["Colossus", "Deathstalker", "Tank"], "markerTypes": [] },
+
+  { "id": "radiation-gear", "name": "Radiation Gear", "type": "gear", "rarity": "",
+    "aliases": ["rad gear", "radiation suit", "hazmat"], "hint": "Fire Stations, usually red buildings in built-up areas. Needed for the Haneul Nuclear Reactor.",
+    "containers": [], "foundIn": [], "markerTypes": ["fireStation"] },
+  { "id": "gas-mask", "name": "Gas Mask", "type": "gear", "rarity": "",
+    "aliases": ["mask"], "hint": "Headgear needed at the Haneul Nuclear Reactor. Look at Fire Stations and military areas.",
+    "containers": [], "foundIn": [], "markerTypes": ["fireStation"] },
+  { "id": "parachute", "name": "Parachute", "type": "gear", "rarity": "",
+    "aliases": ["chute"], "hint": "Fire Stations, or print a Disposable Parachute at the 3D Printer.",
+    "containers": [], "foundIn": [], "markerTypes": ["fireStation"] },
+  { "id": "armor-plates", "name": "Armor Plates", "type": "gear", "rarity": "",
+    "aliases": ["plates", "armor", "armour", "armour plates", "ammo"], "hint": "Ammo & Armor Caches (they cool down after use).",
+    "containers": [], "foundIn": [], "markerTypes": ["ammoCache"] },
+  { "id": "gas-can", "name": "Gas Can", "type": "gear", "rarity": "",
+    "aliases": ["fuel", "gas", "petrol"], "hint": "Refill at Gas Stations and Marine Gas Stations.",
+    "containers": [], "foundIn": [], "markerTypes": ["gasStation", "marineGasStation"] },
+  { "id": "medical-loot", "name": "Medical supplies", "type": "gear", "rarity": "",
+    "aliases": ["meds", "medical", "health", "bandages"], "hint": "Clinics and Mirae General Hospital.",
+    "containers": [], "foundIn": [ { "at": "hospital", "detail": "", "source": "hint" } ], "markerTypes": ["clinic"] },
+  { "id": "armory", "name": "Military gear / Armory", "type": "gear", "rarity": "",
+    "aliases": ["armory", "armoury", "guns", "weapons", "military gear"], "hint": "Police Stations have military gear and a locked Armory.",
+    "containers": [], "foundIn": [], "markerTypes": ["policeStation"] }
+]

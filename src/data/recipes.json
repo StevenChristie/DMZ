@@ -1,0 +1,394 @@
+[
+ {
+  "id": "1-plate-vest",
+  "name": "1-Plate Armor Vest",
+  "category": "Plate Carriers",
+  "unlock": "Level 2",
+  "ingredients": [
+   {
+    "item": "synthetics",
+    "qty": 25
+   },
+   {
+    "item": "metals",
+    "qty": 25
+   }
+  ]
+ },
+ {
+  "id": "2-plate-vest",
+  "name": "2-Plate Armor Vest",
+  "category": "Plate Carriers",
+  "unlock": "Level 2",
+  "ingredients": [
+   {
+    "item": "synthetics",
+    "qty": 50
+   },
+   {
+    "item": "reactive-metals",
+    "qty": 5
+   }
+  ]
+ },
+ {
+  "id": "3-plate-helmet-vest",
+  "name": "3-Plate Helmet Armor Vest",
+  "category": "Plate Carriers",
+  "unlock": "Find in game",
+  "ingredients": [
+   {
+    "item": "nano-alloy",
+    "qty": 2
+   },
+   {
+    "item": "alloyed-plating",
+    "qty": 4
+   },
+   {
+    "item": "reactive-metals",
+    "qty": 10
+   }
+  ]
+ },
+ {
+  "id": "3-plate-gel-vest",
+  "name": "3-Plate Ballistic Gel Vest",
+  "category": "Plate Carriers",
+  "unlock": "Find in game",
+  "ingredients": [
+   {
+    "item": "experimental-compounds",
+    "qty": 2
+   },
+   {
+    "item": "stabilized-reagents",
+    "qty": 4
+   },
+   {
+    "item": "biomaterials",
+    "qty": 10
+   }
+  ]
+ },
+ {
+  "id": "tempered-vest",
+  "name": "Tempered Armor Vest",
+  "category": "Plate Carriers",
+  "unlock": "Unknown",
+  "ingredients": [
+   {
+    "item": "military-composites",
+    "qty": 2
+   },
+   {
+    "item": "ballistic-fabric",
+    "qty": 4
+   },
+   {
+    "item": "rigid-synthetics",
+    "qty": 10
+   }
+  ]
+ },
+ {
+  "id": "small-backpack",
+  "name": "Small Backpack",
+  "category": "Backpacks",
+  "unlock": "Level 2",
+  "ingredients": [
+   {
+    "item": "synthetics",
+    "qty": 25
+   },
+   {
+    "item": "metals",
+    "qty": 25
+   }
+  ]
+ },
+ {
+  "id": "medium-backpack",
+  "name": "Medium Backpack",
+  "category": "Backpacks",
+  "unlock": "Level 2",
+  "ingredients": [
+   {
+    "item": "synthetics",
+    "qty": 50
+   },
+   {
+    "item": "rigid-synthetics",
+    "qty": 5
+   }
+  ]
+ },
+ {
+  "id": "small-secure-backpack",
+  "name": "Small Secure Backpack",
+  "category": "Backpacks",
+  "unlock": "Unknown",
+  "ingredients": [
+   {
+    "item": "metals",
+    "qty": 50
+   },
+   {
+    "item": "rigid-synthetics",
+    "qty": 10
+   },
+   {
+    "item": "structural-alloy",
+    "qty": 3
+   }
+  ]
+ },
+ {
+  "id": "secure-scavenger-backpack",
+  "name": "Secure Scavenger Backpack",
+  "category": "Backpacks",
+  "unlock": "Find in game",
+  "ingredients": [
+   {
+    "item": "military-composites",
+    "qty": 2
+   },
+   {
+    "item": "nylon-laminate",
+    "qty": 4
+   },
+   {
+    "item": "reactive-metals",
+    "qty": 10
+   }
+  ]
+ },
+ {
+  "id": "large-secure-backpack",
+  "name": "Large Secure Backpack",
+  "category": "Backpacks",
+  "unlock": "Find in game",
+  "ingredients": [
+   {
+    "item": "prototype-rf",
+    "qty": 2
+   },
+   {
+    "item": "alloyed-plating",
+    "qty": 4
+   },
+   {
+    "item": "rigid-synthetics",
+    "qty": 10
+   }
+  ]
+ },
+ {
+  "id": "bandage",
+  "name": "Bandage",
+  "category": "Consumables",
+  "unlock": "Level 2",
+  "ingredients": [
+   {
+    "item": "synthetics",
+    "qty": 15
+   },
+   {
+    "item": "chemicals",
+    "qty": 15
+   }
+  ]
+ },
+ {
+  "id": "medkit",
+  "name": "Medkit",
+  "category": "Consumables",
+  "unlock": "Level 2",
+  "ingredients": [
+   {
+    "item": "chemicals",
+    "qty": 30
+   },
+   {
+    "item": "binding-catalyst",
+    "qty": 1
+   },
+   {
+    "item": "biomaterials",
+    "qty": 5
+   }
+  ]
+ },
+ {
+  "id": "energy-drink",
+  "name": "Energy Drink",
+  "category": "Consumables",
+  "unlock": "Unknown",
+  "ingredients": [
+   {
+    "item": "chemicals",
+    "qty": 10
+   },
+   {
+    "item": "metals",
+    "qty": 10
+   }
+  ]
+ },
+ {
+  "id": "pain-killers",
+  "name": "Pain Killers",
+  "category": "Consumables",
+  "unlock": "Unknown",
+  "ingredients": [
+   {
+    "item": "electronics",
+    "qty": 15
+   },
+   {
+    "item": "chemicals",
+    "qty": 15
+   }
+  ]
+ },
+ {
+  "id": "sedative-inhaler",
+  "name": "Sedative Inhaler",
+  "category": "Consumables",
+  "unlock": "Level 3",
+  "ingredients": []
+ },
+ {
+  "id": "radiation-blockers",
+  "name": "Radiation Blockers",
+  "category": "Consumables",
+  "unlock": "Unknown",
+  "ingredients": []
+ },
+ {
+  "id": "smelling-salts",
+  "name": "Smelling Salts",
+  "category": "Consumables",
+  "unlock": "Unknown",
+  "ingredients": []
+ },
+ {
+  "id": "self-revive",
+  "name": "Self-Revive Kit",
+  "category": "Consumables",
+  "unlock": "Level 48",
+  "ingredients": [
+   {
+    "item": "biomaterials",
+    "qty": 5
+   },
+   {
+    "item": "binding-catalyst",
+    "qty": 3
+   }
+  ]
+ },
+ {
+  "id": "revive-pistol",
+  "name": "Revive Pistol",
+  "category": "Gear",
+  "unlock": "Unknown",
+  "ingredients": [
+   {
+    "item": "power-regulator",
+    "qty": 2
+   },
+   {
+    "item": "binding-catalyst",
+    "qty": 3
+   },
+   {
+    "item": "detonators",
+    "qty": 5
+   }
+  ]
+ },
+ {
+  "id": "armor-box",
+  "name": "Armor Box",
+  "category": "Field Upgrades",
+  "unlock": "Level 14",
+  "ingredients": [
+   {
+    "item": "reactive-metals",
+    "qty": 1
+   }
+  ]
+ },
+ {
+  "id": "door-breacher",
+  "name": "Door Breacher Charge",
+  "category": "Tacticals",
+  "unlock": "Find in game",
+  "ingredients": [
+   {
+    "item": "experimental-compounds",
+    "qty": 1
+   },
+   {
+    "item": "stock-rod",
+    "qty": 5
+   },
+   {
+    "item": "volatile-explosives",
+    "qty": 3
+   }
+  ]
+ },
+ {
+  "id": "bomb-glider",
+  "name": "Bomb Glider",
+  "category": "Gear",
+  "unlock": "Unknown",
+  "ingredients": [
+   {
+    "item": "stock-rod",
+    "qty": 1
+   }
+  ]
+ },
+ {
+  "id": "disposable-parachute",
+  "name": "Disposable Parachute",
+  "category": "Gear",
+  "unlock": "Level 55",
+  "ingredients": [
+   {
+    "item": "rigid-synthetics",
+    "qty": 1
+   }
+  ]
+ },
+ {
+  "id": "fulton-marker",
+  "name": "Fulton Drop Marker",
+  "category": "Fire Support",
+  "unlock": "Find in game",
+  "ingredients": [
+   {
+    "item": "prototype-rf",
+    "qty": 1
+   },
+   {
+    "item": "comms-module",
+    "qty": 3
+   },
+   {
+    "item": "control-unit",
+    "qty": 5
+   }
+  ]
+ },
+ {
+  "id": "recon-drone",
+  "name": "Recon Drone",
+  "category": "Field Upgrades",
+  "unlock": "Counterfeit DMZ Orders reward",
+  "ingredients": []
+ }
+]

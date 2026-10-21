@@ -1,0 +1,25 @@
+{
+  "name": "dmz-hajin-planner",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interactive Hajin map + resource planner for MW4 DMZ",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "tiles": "node scripts/fetch-tiles.mjs"
+  },
+  "dependencies": {
+    "fuse.js": "^7.5.0",
+    "leaflet": "^1.9.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
